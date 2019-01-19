@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			
+			//---------------创建数组-----------------
+			var  arr = ["1",32,34,"abdf"];
+			console.log(arr[3]);
+			for (var a =0;a<arr.length ;a++) {
+				console.log(arr[a]);	
+			}
+			
+			var cc="nihao"
+			
+		//--------------定义函数1·-------------------------------------	
+			function fun1( a , b ){
+				console.log(arguments[0]+"==============="); 
+				
+			
+				
+				document.write("我是函数对象");
+				
+				return a+b;
+			}
+			var sum = fun1(1,2);
+			
+			console.log(sum);
+			//--------------定义函数2·-------------------------------------	
+			var fun =  function(){
+			
+				console.log("我是函数的第二种创建方式");
+			}
+			
+			fun();
+			console.log(this.cc+"-----------------");
+		</script>
+		
+		
+	</head>
+	<body>
+	</body>
+</html>

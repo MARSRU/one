@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			
+			
+			var per = {
+				
+				name: "张三",
+				age:15 ,
+				// 定义对象中方法；
+				fun1:function(){
+					
+					console.log(this.name+"我是 对象的方法");
+					
+				}
+
+				
+			}
+			
+			per.fun1();
+			
+			var dog = new Object();
+			
+			dog.fun2 = function(){
+				
+				console.log("我是 对象的方法的另一种创建方式");
+				
+			}
+			
+			dog.fun2();
+			
+			
+			
+		</script>
+		
+		
+		
+	</head>
+	<body>
+	</body>
+</html>
